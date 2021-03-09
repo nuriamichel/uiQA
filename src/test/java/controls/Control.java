@@ -1,6 +1,7 @@
 package controls;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import singletonSession.Session;
 
@@ -55,5 +56,9 @@ public class Control {
     public void clear() {
         this.findControl();
         this.control.clear();
+    }
+    public void enter() {
+        this.findControl();
+        this.control.sendKeys(Keys.ENTER);
     }
 }

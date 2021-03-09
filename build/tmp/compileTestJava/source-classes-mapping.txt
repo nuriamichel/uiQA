@@ -1,46 +1,52 @@
-factoryBrowser/Chrome.java
- factoryBrowser.Chrome
-factoryBrowser/FactoryBrowser.java
- factoryBrowser.FactoryBrowser
-factoryBrowser/Edge.java
- factoryBrowser.Edge
-factoryBrowser/FireFox.java
- factoryBrowser.FireFox
+controls/Label.java
+ controls.Label
+testClean/CRUDProjectTest.java
+ testClean.CRUDProjectTest
 singletonSession/Session.java
  singletonSession.Session
 factoryBrowser/IBrowser.java
  factoryBrowser.IBrowser
-basicSelenium/BasicTodoLyTest.java
- basicSelenium.BasicTodoLyTest
+testClean/LoginTest.java
+ testClean.LoginTest
+factoryBrowser/Edge.java
+ factoryBrowser.Edge
+controls/TextBox.java
+ controls.TextBox
+pomPages/todoLy/LeftSection.java
+ pomPages.todoLy.LeftSection
 basicSelenium/BasicTest.java
  basicSelenium.BasicTest
-basicSelenium/BasicCreateProjectTest.java
- basicSelenium.BasicCreateProjectTest
-controls/Label.java
- controls.Label
-pomPages/todoLy/LoginModal.java
- pomPages.todoLy.LoginModal
+basicSelenium/BasicTodoLyTest.java
+ basicSelenium.BasicTodoLyTest
+factoryBrowser/FireFox.java
+ factoryBrowser.FireFox
 controls/CheckBox.java
  controls.CheckBox
+pomPages/todoLy/LoginModal.java
+ pomPages.todoLy.LoginModal
+testClean/CreateProjectTest.java
+ testClean.CreateProjectTest
 pomPages/todoLy/MenuSection.java
  pomPages.todoLy.MenuSection
 controls/Image.java
  controls.Image
-testClean/LoginTest.java
- testClean.LoginTest
+pomPages/todoLy/CenterSectionItem.java
+ pomPages.todoLy.CenterSectionItem
 pomPages/todoLy/CenterSection.java
  pomPages.todoLy.CenterSection
+basicSelenium/BasicCreateProjectTest.java
+ basicSelenium.BasicCreateProjectTest
 controls/Button.java
  controls.Button
+factoryBrowser/Chrome.java
+ factoryBrowser.Chrome
 controls/Control.java
  controls.Control
-controls/TextBox.java
- controls.TextBox
+testClean/CRUDItemTest.java
+ testClean.CRUDItemTest
 pomPages/todoLy/MainPage.java
  pomPages.todoLy.MainPage
-testClean/CRUDProjectTest.java
- testClean.CRUDProjectTest
-testClean/CreateProjectTest.java
- testClean.CreateProjectTest
-pomPages/todoLy/LeftSection.java
- pomPages.todoLy.LeftSection
+factoryBrowser/FactoryBrowser.java
+ factoryBrowser.FactoryBrowser
+factoryBrowser/BrowserStack.java
+ factoryBrowser.BrowserStack
