@@ -9,10 +9,9 @@ import java.net.URL;
 
 public class BrowserStack implements IBrowser {
 
-    private static final String USERNAME = "";
-    private static final String AUTOMATE_KEY = "";
-    private static final String URL_BROWSERSTACK = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
-
+    public static final String USERNAME = "";
+    public static final String AUTOMATE_KEY = "";
+    public static final String URL_BROWSERSTACK = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
     @Override
     public WebDriver create() {
         WebDriver driver = null;
@@ -21,8 +20,8 @@ public class BrowserStack implements IBrowser {
         caps.setCapability("os", "Windows");
         caps.setCapability("os_version", "10");
         caps.setCapability("browser", "Chrome");
-        caps.setCapability("browser_version", "89.0.4389.82");
-        caps.setCapability("name", "Test");
+        caps.setCapability("browser_version", "89.0");
+        caps.setCapability("name", "nurialuisamichel1's First Test");
 
         try {
             driver = new RemoteWebDriver(new URL(URL_BROWSERSTACK), caps);
